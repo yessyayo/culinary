@@ -1,0 +1,1563 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    width: 100%;
+    max-width: 1440px;
+    height: 4400px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+/* Hero section CSS*/
+.hero-section {
+    width: 1240px;
+    height: 675px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    gap: 42px;
+}
+
+.left-section {
+    width: 525px;
+    height: 541px;
+    padding: 0px 0px 20.51px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-section
+.left-text {
+    width: 525px;
+    height: 427px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.text1 {
+    width: 525px;
+    height: 230px;
+}
+
+.text1 h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 115.2px;
+    text-align: left;
+}
+.text1 span{
+    color: #EF882B;
+}
+
+.text2 {
+    width: 491px;
+    height: 190px;
+}
+
+.text2 p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+.left-section button{
+    width: 195px;
+    height: 45px;
+    padding: 8.5px 20.85px 8.5px 20.85px;
+    gap: 8.5px;
+    border-radius: 7.72px;
+    background: #034E4A;
+}
+
+.left-section button a {
+    width: 113px;
+    height: 21px;
+    font-size: 15.45px;
+    font-weight: 500;
+    line-height: 20.54px;
+    letter-spacing: 0.12837255001068115px;
+    color: #FAFAFA;
+    text-decoration: none; 
+}
+
+.right-section img {
+    width: 673px;
+    height: 675px;
+}
+
+/* Recipe Section CSS*/
+.recipe-section {
+    width: 1229px;
+    height: 643.08px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.recipe-text {
+    width: 564px;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.text3 {
+    width:100%;
+    height: 54px;
+}
+
+.text3 h1 { 
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+}
+
+.text4 {
+    width: 100%;
+    height: 48px;
+}
+
+.text4 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.recipe-content {
+    width: 100%;
+    height: 501.08px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.recipe-img {
+    width: 100%;
+    height: 430px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 75px; 
+}
+
+.recipe-action {
+    position: relative;
+    width: 350px;
+    height: 430px;
+    padding: 259.5px 19px 11.5px 19px;
+    border-radius: 10px; 
+}
+
+.recipe-action img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-text {
+    position: absolute;
+    width: 312px;
+    height: 159px;
+    top: 259px;
+    left: 0;
+    margin: 0 20px;
+    border-radius: 5px;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    background: #FDFCFC;
+    color: #151212;
+}
+
+.img-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.img-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.img-text .recipe-icon {
+    display: flex;
+    align-items: center;
+}
+
+.recipe-icon{
+    width: 19px;
+    height: 19px;
+    color: #EF882B;
+    display: flex;
+    gap: 10px;
+}
+
+.recipe-icon span {
+    color: #000000;
+}
+
+/* arrow css*/
+.arrow-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 144px;
+    height: 55.08px;
+}
+
+.arrow-btns #btn {
+    width: 55.08px;
+    height: 55.08px;
+    padding: 11.94px;
+    background: #E0E0E0;
+    color: #151212;
+    border: 2.59px solid #E0E0E0;
+    border-radius: 50%;
+}
+
+.arrow-btns #btn:hover {
+    background: #034E4A;
+    color: #FDFCFC;
+}
+
+.arrow-btns #btn i {
+    width: 18.1px;
+    height: 18.1px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+/* Breakfast Section CSS*/
+.breakfast-section,
+.dinner-section {
+    width: 1440px;
+    height: 676px;
+    display: flex;
+    align-items: center;
+    background: #EBEBEB;
+}
+
+.breakfast-content,
+.lunch-section,
+.dinner-content,
+.snacks-section {
+    width: 1240px;
+    height: 665px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+    margin: 0 auto;  
+}
+
+.text {
+    width: 100%;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.text h1 {
+    width: 1240px;
+    height: 54px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+}
+
+.text p {
+    width: 554px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.action {
+    width: 1217px;
+    height: 501.08px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.action-img {
+    width: 1217px;
+    height: 430px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+    opacity: 0px;
+    
+}
+
+.card-frame {
+    width: 350px;
+    height: 430px;
+    padding: 19px 29px;
+    border-radius: 10px;
+    border: 3px solid #FDFCFC;
+    background: #FDFCFC;
+}
+
+.card-body {
+    width: 299.41px;
+    height: 387.66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    margin: 0 auto;
+}
+
+.card-body img {
+    width: 100%;
+    height: 186.14px;
+}
+
+.card-text {
+    width: 228.61px;
+    height: 119.31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19.31px;
+}
+
+.card-text h6 {
+    width: 100%;
+    height: 32px;
+    font-size: 20.52px;
+    font-weight: 700;
+    line-height: 31.71px;
+    text-align: center;
+}
+
+.card-text p {
+    width: 100%;
+    height: 68px;
+    font-size: 14.92px;
+    font-weight: 400;
+    line-height: 22.39px;
+    text-align: center;
+}
+
+.card-btn {
+    width: 210.08px;
+    height: 60.22px;
+    padding: 7.72px;
+}
+
+.card-btn button {
+    width: 194.63px;
+    height: 44.77px;
+    padding: 8.5px 20.85px 8.5px 20.85px;
+    border-radius: 7.72px ;
+    background: #034E4A;
+}
+
+.card-btn button:hover {
+    background: #EF882B;
+}
+
+.card-btn button a {
+    width: 113px;
+    height: 21px;
+    font-size: 15.45px;
+    font-weight: 500;
+    line-height: 20.54px;
+    letter-spacing: 0.12837255001068115px;
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+
+
+
+
+@media (max-width: 1065px) {
+    /* Hero section responsiveness*/
+.hero-section {
+    max-width: 944.65px;
+    height: 516.46px;
+    justify-content: space-between;
+}
+
+.left-section {
+    max-width: 402.35px;
+    height: 387.36px;
+    gap: 16px;
+}
+
+.left-section
+.left-text {
+    max-width: 402.35px;
+    height: 326.36px;
+    gap: 5.36px;
+}
+
+.text1 {
+    max-width: 402.35px;
+    height: 176px;
+}
+
+.text1 h1 {
+    font-size: 73.45px;
+    line-height: 88.14px; 
+}
+
+.text2 {
+    max-width: 376px;
+    height: 145px;
+}
+
+.text2 p{
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.right-section img{
+    max-width: 500px;
+    height: 516.46px;
+}
+
+
+/* Recipe Section responsiveness*/
+.recipe-section {
+    max-width: 919px;
+    height: 476.63px;
+    gap: 17.77px;
+}
+
+.recipe-text {
+    max-width: 417.61px;
+    height: 87.85px;
+    gap: 11.85px;
+}
+
+.text3 {
+    height: 40px;
+}
+
+.text3 h1 { 
+    font-size:26.66px;
+    line-height: 39.98px;
+}
+
+.text4 {
+    height: 36px;
+}
+
+.text4 p {
+    font-size: 14.81px;
+    line-height: 17.77px;
+}
+
+.recipe-content {
+    height: 374.83px;
+    gap: 11.85px;
+}
+
+.recipe-img {
+    max-width: 919px;
+    height: 318.39px;
+    padding: 0px 7.4px;
+    gap: 55.53px; 
+}
+
+.recipe-action {
+    position: relative;
+    max-width: 259.15px;
+    height: 318.39px;
+    padding: 192.14px 14.07px 8.52px 14.07px;
+    border-radius: 7.4px;
+}
+
+.recipe-action img {
+    max-width: 259.15px;
+    height: 318.39px;
+    border-radius: 7.4px;
+}
+
+.img-text {
+    position: absolute;
+    max-width: 231.02px;
+    height: 117.73px;
+    top: 192.14px;
+    left: 0;
+    border-radius: 3.7px;
+    margin: 0 15px;
+    padding: 17.77px 0;
+}
+
+.img-text h1 {
+    font-size: 20.73px;
+    line-height: 31.1px;
+}
+
+.img-text p {
+    font-size: 13.33px;
+    line-height: 20.73px;
+}
+
+.recipe-icon {
+    max-width: 17.77px;
+    height: 17.77px;
+    padding: 1.85px;
+    display: flex;
+    gap: 9.34px;
+}
+
+.arrow-btns {
+    max-width: 106.62px;
+    height: 40.78px;
+}
+
+.arrow-btns #btn {
+    max-width: 40.64px;
+    height: 40.76px;
+    padding: 8.84px;
+    border: 1.91px solid #E0E0E0;
+}
+
+.arrow-btns #btn i {
+    max-width: 13.4px;
+    height: 13.4px;
+}
+
+/* Breakfast Section CSS*/
+.breakfast-section,
+.dinner-section {
+    max-width: 1024px;
+    height: 513px;
+}
+
+.breakfast-content,
+.lunch-section,
+.dinner-content,
+.snacks-section {
+    max-width: 928px;
+    height: 481px;
+    gap: 11.97px; 
+}
+
+.text {
+    height: 94.97px;
+    gap: 11.97px;
+}
+
+.text h1 {
+    max-width: 928px;
+    height: 41px;
+    font-size: 26.93px;
+    line-height: 40.4px;
+}
+
+.text p {
+    max-width: 414.42px;
+    height: 42px;
+    font-size: 13.47px;
+    line-height: 20.95px;
+}
+
+.action {
+    max-width: 910.38px;
+    height: 374.83px;
+    gap: 11.97px;
+}
+
+.action-img {
+    max-width: 910.38px;
+    height: 321.66px;
+    padding: 0 7.48px;
+    gap: 56.1px; 
+}
+
+.card-frame {
+    max-width: 261.82px;
+    height: 321.66px;
+    padding: 14.21px 21.69px;
+}
+
+.card-body {
+    max-width: 223.98px;
+    height: 290.19px;
+    gap: 8.23px;
+}
+
+.card-body img {
+    max-width: 223.98px;
+    height: 139.24px;
+}
+
+.card-text {
+    max-width: 171.02px;
+    height: 89.44px;
+    gap: 14.44px;
+}
+
+.card-text h6 {
+    max-width: 170.95px;
+    height: 24px;
+    font-size: 15.35px;
+    line-height: 23.72px;
+}
+
+.card-text p {
+    max-width: 170.95px;
+    height: 68px;
+    font-size: 11.16px;
+    line-height: 16.75px;
+}
+
+.card-btn {
+    max-width: 157.15px;
+    height: 45.22px;
+    padding: 5.78px;
+}
+
+.card-btn button {
+    max-width: 148.53px;
+    height: 34.17px;
+    padding: 6.36px 15.6px;
+    border-radius: 5.78px ;
+}
+
+.card-btn button a {
+    max-width: 84px;
+    height: 16px;
+    font-size: 11.56px;
+    line-height: 15.36px;
+    letter-spacing: 0.1px;
+}
+
+}
+
+
+
+@media (max-width: 927px) {
+    
+    /* Hero section CSS*/
+    .hero-section {
+        width: 768px;
+        height: 516.46px;
+        gap: 24px;
+    }
+    
+    .left-section {
+        width: 361px;
+        height: 387.36px;
+        padding: 0;
+    }
+    
+    .left-section
+    .left-text {
+        width: 361px;
+        height: 100%;
+        gap: 30px;
+    }
+    
+    .text1 {
+        width: 361px;
+        height: 154px;
+    }
+    
+    .text1 h1 {
+        font-size: 64px;
+        line-height: 76.8px;
+    }
+    
+    
+    .text2 {
+        width: 361px;
+        height: 140px;
+    }
+    
+    .text2 p{
+        font-size: 16px;
+        line-height: 26.4px;
+    }
+    
+    .right-section img {
+        width: 361px;
+        height: 432px;
+    }
+
+    
+    /* Recipe Section CSS*/
+    .recipe-section {
+        width: 768px;
+        height: 476.63px;
+    }
+    
+    .recipe-text {
+        width: 318.73px;
+        height: 115px;
+        gap: 10.81px;
+    }
+    
+    .text3 {
+        width:318.73px;
+        height: 37px;
+    }
+    
+    .text3 h1 { 
+        font-size: 24.32px;
+        line-height: 36.48px;
+    }
+    
+    .text4 {
+        width: 100%;
+        height: 48px;
+    }
+    
+    .text4 p {
+        font-size: 13.51px;
+        line-height: 16.21px;
+        text-align: center;
+    }
+    
+    .recipe-content {
+        width: 768px;
+        height: 374.83px;
+        gap: 11.85px;
+    }
+    
+    .recipe-img {
+        width: 768px;
+        height: 858px;
+        padding: 0;
+        flex-direction: row;
+        gap: 24px; 
+    }
+    
+    .recipe-action {
+        width: 230px;
+        height: 320px;
+        padding: 0;
+        border-radius: 5.87px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    
+    .recipe-action img {
+        width: 230px;
+        height: 320px;
+    }
+    
+    .img-text {
+        width: 211.15px;
+        height: 93.26px;
+        top: 195px;
+        left: 0;
+        margin: 0 10px;
+        border-radius: 2.93px;
+        padding: 14.08px 107.92px 13.72px 9.38px;
+        background: #FDFCFC;
+        color: #151212;
+    }
+    
+    .img-text h1 {
+        width: 183px;
+        font-size: 16.42px;
+        line-height: 24.63px;
+    }
+    
+    .img-text p {
+        width: 93.85px;
+        font-size: 10.56px;
+        line-height: 16.42px;
+    }
+    
+    .recipe-icon {
+        width: 93.85px;
+        height: 14.08px;
+        gap: 9.93;
+    }
+
+    
+    /* arrow button*/
+    .arrow-btns {
+        width: 110.18px;
+        height: 42.14px;
+    }
+    
+    .arrow-btns  #btn {
+        width: 42.14px;
+        height: 42.14px;
+        padding: 9.13px;
+    }
+    
+    .arrow-btns  #btn:hover {
+        background: #034E4A;
+        color: #FDFCFC;
+    }
+    
+    .arrow-btns #btn i {
+        width: 18.1px;
+        height: 18.1px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    /* Breakfast Section CSS*/
+    .breakfast-section,
+    .dinner-section {
+        width: 768px;
+        height: 540px;
+        gap: 24px;
+        margin: 30px auto;
+    }
+    
+    .breakfast-content,
+    .lunch-section,
+    .dinner-content,
+    .snacks-section {
+        width: 768px;
+        height: 481px;
+        gap: 11.97px; 
+        align-items: center;  
+    }
+    
+    .text {
+        width: 361px;
+        height: 134px;
+        gap: 12.24px;
+    }
+    
+    .text h1 {
+        width: 361px;
+        height: 42px;
+        font-size: 27.54px;
+        line-height: 41.32px;
+    }
+    
+    .text p {
+        width: 241px;
+        height: 65px;
+        font-size:  13.77px;
+        line-height: 21.42px;
+    }
+    
+    
+    .action {
+        width: 768px;
+        height: 374.83px;
+        gap: 11.97px;
+    
+    }
+    
+    .action-img {
+        width: 768px;
+        height: 321.66px;
+        padding: 7.48px;
+        gap: 56.1px; 
+        flex-direction: row;
+        gap: 18px;
+    }
+    
+    .card-frame {
+        width: 260px;
+        height: 320px;
+        border-radius: 7.08px;
+    }
+    
+    .card-body {
+        width: 180px;
+        height: 280px;
+        gap: 8.56px;
+    }
+    
+    .card-body img {
+        width: 180px;
+        height: 142.42px;
+        border-radius: 7.09px;
+    }
+    
+    .card-text {
+        width: 2174.92px;
+        height: 91.77px;
+        gap: 14.77px;
+    }
+    
+    .card-text h6 {
+        width: 174.85px;
+        height: 25px;
+        font-size: 15.7px;
+        line-height: 24.26px;
+    }
+    
+    .card-text p {
+        width: 174.85px;
+        height: 52px;
+        font-size: 11.42px;
+        font-weight: 400;
+        line-height: 17.13px;
+    }
+    
+    .card-btn {
+        width: 160.74px;
+        height: 46.08px;
+        padding: 5.91px;
+    }
+    
+    .card-btn button {
+        width: 148.92px;
+        height: 34.26px;
+        padding: 6.5px 15.96px ;
+        border-radius: 5.91px ;
+        background: #034E4A;
+    }
+    
+    
+    .card-btn button a {
+        width: 86px;
+        height: 16px;
+        font-size: 11.82px;
+        font-weight: 500;
+        line-height: 15.72px;
+        letter-spacing:  0.1px;
+    }
+    
+    }
+
+
+/* media query for 767px */
+@media (max-width: 767px) {
+    
+    /* Hero section CSS*/
+    .hero-section {
+        width: 361px;
+        height: 807px;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .left-section {
+        width: 361px;
+        height: 100%;
+        padding: 0;
+    }
+    
+    .left-section
+    .left-text {
+        width: 361px;
+        height: 100%;
+        gap: 30px;
+    }
+    
+    .text1 {
+        width: 361px;
+        height: 154px;
+    }
+    
+    .text1 h1 {
+        font-size: 64px;
+        line-height: 76.8px;
+        text-align: center;
+    }
+    
+    
+    .text2 {
+        width: 361px;
+        height: 140px;
+    }
+    
+    .text2 p{
+        font-size: 16px;
+        line-height: 26.4px;
+        text-align: center;
+    }
+    
+    .left-section button{
+        position: absolute;
+        top: 990px;
+        width: 195px;
+        height: 45px;
+        margin: 0 80px;
+
+    }
+
+    .left-section button a {
+        width: 195px;
+        height: 31px;
+        font-size: 15.45px;
+        line-height: 20.54px;
+        letter-spacing: 0.12837255001068115px;
+        padding:5px 10px;
+    }
+    
+    .right-section img {
+        width: 361px;
+        height: 432px;
+    }
+    
+    /* Recipe Section CSS*/
+    .recipe-section {
+        width: 361px;
+        height: 1043.95px;
+        margin-top: 24px;
+    }
+    
+    .recipe-text {
+        width: 100%;
+        height: 93.81px;
+        gap: 10.81px;
+    }
+    
+    .text3 {
+        width:318.73px;
+        height: 37px;
+    }
+    
+    .text3 h1 { 
+        font-size: 24.32px;
+        line-height: 36.48px;
+    }
+    
+    .text4 {
+        width: 80%;
+        height: 48px;
+    }
+    
+    .text4 p {
+        font-size: 13.51px;
+        line-height: 16.21px;
+        text-align: center;
+    }
+    
+    .recipe-content {
+        width: 298px;
+        height: 960px;
+        gap: 24px;
+    }
+    
+    .recipe-img {
+        width: 298px;
+        height: 858px;
+        padding: 0;
+        flex-direction: column;
+        gap: 24px; 
+    }
+    
+    .recipe-action {
+        width: 298px;
+        height: 270px;
+        padding: 0;
+        border-radius: 5.87px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    
+    .recipe-action img {
+        width: 298px;
+        height: 270px;
+    }
+    
+    .img-text {
+        width: 211.15px;
+        height: 93.26px;
+        top: 165px;
+        left: 0;
+        margin: 0 20px;
+        border-radius: 2.93px;
+        padding: 14.08px 107.92px 13.72px 9.38px;
+        background: #FDFCFC;
+        color: #151212;
+    }
+    
+    .img-text h1 {
+        width: 183px;
+        font-size: 16.42px;
+        line-height: 24.63px;
+    }
+    
+    .img-text p {
+        width: 93.85px;
+        font-size: 10.56px;
+        line-height: 16.42px;
+    }
+    
+    .recipe-icon {
+        width: 93.85px;
+        height: 14.08px;
+        
+    }
+    
+    /* arrow button*/
+    .arrow-btns {
+        width: 110.18px;
+        height: 42.14px;
+    }
+    
+    .arrow-btns #btn {
+        width: 42.14px;
+        height: 42.14px;
+        padding: 9.13px;
+    }
+    
+    .arrow-btns #btn:hover {
+        background: #034E4A;
+        color: #FDFCFC;
+    }
+    
+    .arrow-btns #btn i {
+        width: 18.1px;
+        height: 18.1px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    /* Breakfast Section CSS*/
+    .breakfast-section,
+    .dinner-section {
+        width: 361px;
+        height: 1283px;
+        gap: 24px;
+        margin: 30px auto;
+    }
+    
+    .breakfast-content,
+    .lunch-section,
+    .dinner-content,
+    .snacks-section {
+        width: 361px;
+        height: 1247.15px;
+        gap: 24px;
+        margin-bottom: 100px  
+    }
+    
+    .text {
+        width: 361px;
+        height: 134px;
+        gap: 12.24px;
+    }
+    
+    .text h1 {
+        width: 361px;
+        height: 42px;
+        font-size: 27.54px;
+        line-height: 41.32px;
+    }
+    
+    .text p {
+        width: 241px;
+        height: 65px;
+        font-size:  13.77px;
+        line-height: 21.42px;
+    }
+    
+    
+    .action {
+        width: 361px;
+        height: 1023.01px;
+        gap: 18px;
+    }
+    
+    .action-img {
+        width: 361px;
+        height: 1023.01px;
+        padding: 0;
+        flex-direction: column;
+        gap: 18px;
+        opacity: 0px;
+        
+    }
+    
+    .card-frame {
+        width: 361px;
+        height: 329px;
+        padding: 14.27px 22.12px;
+        border-radius: 7.08px;
+    }
+    
+    .card-body {
+        width: 316.75px;
+        height: 298px;
+        gap: 8.56px;
+    }
+    
+    .card-body img {
+        width: 316.75px;
+        height: 142.42px;
+        border-radius: 7.09px;
+    }
+    
+    .card-text {
+        width: 2174.92px;
+        height: 91.77px;
+        gap: 14.77px;
+    }
+    
+    .card-text h6 {
+        width: 174.85px;
+        height: 25px;
+        font-size: 15.7px;
+        line-height: 24.26px;
+    }
+    
+    .card-text p {
+        width: 174.85px;
+        height: 52px;
+        font-size: 11.42px;
+        font-weight: 400;
+        line-height: 17.13px;
+    }
+    
+    .card-btn {
+        width: 160.74px;
+        height: 46.08px;
+        padding: 5.91px;
+    }
+    
+    .card-btn button {
+        width: 148.92px;
+        height: 34.26px;
+        padding: 6.5px 15.96px ;
+        border-radius: 5.91px ;
+        background: #034E4A;
+    }
+    
+    
+    .card-btn button a {
+        width: 86px;
+        height: 16px;
+        font-size: 11.82px;
+        font-weight: 500;
+        line-height: 15.72px;
+        letter-spacing:  0.1px;
+    }
+    
+    }
+/*media query for 425px*/
+@media (max-width: 430px) {
+    
+/* Hero section CSS*/
+.hero-section {
+    width: 361px;
+    height: 807px;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.left-section {
+    width: 361px;
+    height: 100%;
+    padding: 0;
+}
+
+.left-section
+.left-text {
+    width: 361px;
+    height: 100%;
+    gap: 30px;
+}
+
+.text1 {
+    width: 361px;
+    height: 154px;
+}
+
+.text1 h1 {
+    font-size: 64px;
+    line-height: 76.8px;
+    text-align: center;
+}
+
+
+.text2 {
+    width: 361px;
+    height: 140px;
+}
+
+.text2 p{
+    font-size: 16px;
+    line-height: 26.4px;
+    text-align: center;
+}
+
+.left-section button{
+    position: absolute;
+    top: 990px;
+    width: 195px;
+    height: 45px;
+    margin: 0 80px;
+}
+
+.right-section img {
+    width: 361px;
+    height: 432px;
+}
+
+/* Recipe Section CSS*/
+.recipe-section {
+    width: 361px;
+    height: 1043.95px;
+    margin-top: 24px;
+}
+
+.recipe-text {
+    width: 318.73px;
+    height: 115px;
+    gap: 10.81px;
+}
+
+.text3 {
+    width:318.73px;
+    height: 37px;
+}
+
+.text3 h1 { 
+    font-size: 24.32px;
+    line-height: 36.48px;
+}
+
+.text4 {
+    width: 90%;
+    height: 48px;
+}
+
+.text4 p {
+    font-size: 13.51px;
+    line-height: 16.21px;
+    text-align: center;
+}
+
+.recipe-content {
+    width: 298px;
+    height: 858px;
+    gap: 24px;
+}
+
+.recipe-img {
+    width: 298px;
+    height: 858px;
+    padding: 0;
+    flex-direction: column;
+    gap: 24px; 
+}
+
+.recipe-action {
+    width: 298px;
+    height: 270px;
+    padding: 0;
+    border-radius: 5.87px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.recipe-action img {
+    width: 298px;
+    height: 270px;
+}
+
+.img-text {
+    width: 211.15px;
+    height: 93.26px;
+    top: 165px;
+    left: 0;
+    margin: 0 20px;
+    border-radius: 2.93px;
+    padding: 14.08px 107.92px 13.72px 9.38px;
+    background: #FDFCFC;
+    color: #151212;
+}
+
+.img-text h1 {
+    width: 183px;
+    font-size: 16.42px;
+    line-height: 24.63px;
+}
+
+.img-text p {
+    width: 93.85px;
+    font-size: 10.56px;
+    line-height: 16.42px;
+}
+
+.recipe-icon {
+    width: 93.85px;
+    height: 14.08px;
+    gap: 9.93px;
+}
+
+
+
+/* arrow button*/
+.arrow-btns {
+    width: 110.18px;
+    height: 42.14px;
+}
+
+.arrow-btns #btn {
+    width: 42.14px;
+    height: 42.14px;
+    padding: 9.13px;
+}
+
+.arrow-btns #btn:hover {
+    background: #034E4A;
+    color: #FDFCFC;
+}
+
+.arrow-btns #btn i {
+    width: 18.1px;
+    height: 18.1px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Breakfast Section CSS*/
+.breakfast-section,
+.dinner-section {
+    width: 361px;
+    height: 1283px;
+    gap: 24px;
+    margin: 30px auto;
+}
+
+.breakfast-content,
+.lunch-section,
+.dinner-content,
+.snacks-section {
+    width: 361px;
+    height: 1247.15px;
+    gap: 24px;  
+}
+
+.text {
+    width: 361px;
+    height: 134px;
+    gap: 12.24px;
+}
+
+.text h1 {
+    width: 361px;
+    height: 42px;
+    font-size: 27.54px;
+    line-height: 41.32px;
+}
+
+.text p {
+    width: 241px;
+    height: 65px;
+    font-size:  13.77px;
+    line-height: 21.42px;
+}
+
+
+.action {
+    width: 361px;
+    height: 1023.01px;
+    gap: 18px;
+
+}
+
+.action-img {
+    width: 361px;
+    height: 1023.01px;
+    padding: 0;
+    flex-direction: column;
+    gap: 18px;
+    opacity: 0px;
+    
+}
+
+.card-frame {
+    width: 361px;
+    height: 329px;
+    padding: 14.27px 22.12px;
+    border-radius: 7.08px;
+}
+
+.card-body {
+    width: 316.75px;
+    height: 298px;
+    gap: 8.56px;
+}
+
+.card-body img {
+    width: 316.75px;
+    height: 142.42px;
+    border-radius: 7.09px;
+}
+
+.card-text {
+    width: 2174.92px;
+    height: 91.77px;
+    gap: 14.77px;
+}
+
+.card-text h6 {
+    width: 174.85px;
+    height: 25px;
+    font-size: 15.7px;
+    line-height: 24.26px;
+}
+
+.card-text p {
+    width: 174.85px;
+    height: 52px;
+    font-size: 11.42px;
+    font-weight: 400;
+    line-height: 17.13px;
+}
+
+.card-btn {
+    width: 160.74px;
+    height: 46.08px;
+    padding: 5.91px;
+}
+
+.card-btn button {
+    width: 148.92px;
+    height: 34.26px;
+    padding: 6.5px 15.96px ;
+    border-radius: 5.91px ;
+    background: #034E4A;
+}
+
+
+.card-btn button a {
+    width: 86px;
+    height: 16px;
+    font-size: 11.82px;
+    font-weight: 500;
+    line-height: 15.72px;
+    letter-spacing:  0.1px;
+}
+
+}
